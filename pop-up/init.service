@@ -1,0 +1,8 @@
+[Unit]
+Description=Ver usuarios
+
+[Service]
+ExecStart=/home/xd/Escritorio/pop-up/gui.sh
+
+[Install]
+WantedBy=multi-user.target
